@@ -1,0 +1,27 @@
+{
+  "name": "remax-demo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Remax Project",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Elton Zheng <elton.zheng.sh@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "remax build -w -t",
+    "build": "cross-env NODE_ENV=production remax build -t"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "remax": "^2.15.13"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9",
+    "cross-env": "^7.0.3",
+    "postcss": "^7",
+    "postcss-rem-to-responsive-pixel": "^5.1.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "weapp-tailwindcss-webpack-plugin": "^1.2.9"
+  }
+}
